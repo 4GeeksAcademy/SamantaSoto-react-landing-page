@@ -10,3 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.img-square {
+    width: 33,3%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+  img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
